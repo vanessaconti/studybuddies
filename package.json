@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.1",
+    "pg-promise": "^10.11.1"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "db:seed": "psql postgres -f db/seed.sql",
+    "db:init": "psql postgres -f db/schema.sql"
+  },
+  "name": "studybuddies",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
