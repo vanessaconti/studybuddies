@@ -1,3 +1,7 @@
+Study Buddies
+Take Home Challenge for Module 6
+Created by Vanessa Conti
+
 Install dependencies:
 
 $ npm install
